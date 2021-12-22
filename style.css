@@ -41,9 +41,39 @@ h1{
      left: 19vw;
 }
 
+#rate{
+     -webkit-appearance: none;  
+     appearance: none;
+     height: 8px;
+     background: #d3d3d3; 
+     outline: none;
+     opacity: 0.8;
+     -webkit-transition: .3s; 
+     transition: opacity .3s; 
+     border-radius: 4px;
+}
+
+#rate:hover {
+     opacity: 1; 
+}
+
+#rate::-webkit-slider-thumb{
+     -webkit-appearance: none; 
+     appearance: none;
+     width: 16px; 
+     height: 16px; 
+     background: #1262db; 
+     cursor: pointer; 
+     border-radius: 50%;
+}
+
 #result{
      position: relative;
      left: 20.5vw;
+}
+
+mark{
+     background-color: #f9fd0d;
 }
 
 footer{
