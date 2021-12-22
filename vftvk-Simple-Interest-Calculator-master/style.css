@@ -1,0 +1,52 @@
+body{
+     background-color: black;
+     font-family: arial;
+     font-size: 2.3vh;
+}
+
+h1{
+     color: grey;
+     font-family: verdana;
+     font-size: 5vh;
+     margin: 2vh;
+     padding: 1vh;
+}
+
+.maindiv{
+     background-color: white;
+     color: black;
+     box-sizing: border-box;
+     margin: 5vh 10vw;
+     padding: 5vh;
+     border-radius: 3vh;
+}
+
+.field{
+     margin: 2vh;
+     padding: 1vh;
+     min-height: 0px;
+}
+
+.label{
+     display: inline-block;
+     position: relative;
+     left: 19vw;
+     min-width: 10vw;
+     min-height: 0px;
+}
+
+.box{
+     display: inline-block;
+     position: relative;
+     left: 19vw;
+}
+
+#result{
+     position: relative;
+     left: 20.5vw;
+}
+
+footer{
+     margin: 2vh;
+     padding: 1vh;
+}
