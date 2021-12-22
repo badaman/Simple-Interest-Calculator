@@ -6,9 +6,11 @@ function updateRate()
 
 function compute()
 {
-    var principal = document.getElementById("principal").value;
+    var principal_element = document.getElementById("principal");
+    var principal = principal_element.value;
     if(principal<=0 || principal==""){
-        alert("Enter a positive number in Amount");
+        alert("Enter a positive number");
+        principal_element.focus();
     }
     else{
         var rate = document.getElementById("rate").value;
